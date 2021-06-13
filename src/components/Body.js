@@ -44,7 +44,7 @@ function Body() {
 
 			<div className="">
 				<h5 className="text-white header">What I use in development</h5>
-				<div className="flex  mx-3  flex-wrap content-between text-grey-700 p-5">
+				<div className="flex  mx-4  flex-wrap content-between text-grey-700 p-5">
 					<button className="px-5  py-2  bg-yellow-300 rounded-full m-3">
 						Javascript
 					</button>
@@ -85,30 +85,30 @@ function Body() {
 			</div>
 			<div className="">
 				<h5 className="text-white  header">What I have built</h5>
-				<div className="flex overflow-x-auto cursor-pointer " id="style-4">
+				<div className="flex my-4 overflow-x-auto cursor-pointer " id="style-4">
 					<img
 						src={Quickbill_login}
-						className="w-44  h-52 object-contain rounded-2xl m-3 mx-5"
+						className="w-44  h-68 object-contain rounded-2xl m-2 md:m-5"
 					/>
 					<img
 						src={Quickbill_Home}
-						className="w-40 h-52 object-contain rounded-2xl m-3  mx-5"
+						className="w-44  h-68 object-contain rounded-2xl m-2 md:m-5 "
 					/>
 					<img
 						src={Kuttys}
-						className="w-40 rounded-2xl h-52 object-contain m-3  mx-5"
+						className="w-44  h-68 rounded-2xl object-contain m-2 md:m-5"
 					/>
 					<img
 						src={facebook_clone}
-						className="w-82 h-52 rounded-2xl m-3 object-contain mx-5"
+						className="h-72 my-auto  rounded-2xl object-contain m-2 md:m-5"
 					/>
 					<img
 						src={kuttys_old}
-						className="w-40 rounded-2xl h-52 m-3 object-contain mx-5"
+						className="w-44 h-68 rounded-2xl object-contain m-2 md:m-5"
 					/>
 					<img
 						src={quickbill_customer}
-						className="w-82 h-52 rounded-2xl m-3 object-contain mx-5"
+						className="h-72 my-auto  rounded-2xl object-contain m-2 md:m-5"
 					/>
 				</div>
 			</div>
