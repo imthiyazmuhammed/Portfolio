@@ -6,7 +6,7 @@ import MoreVertIcon from '@material-ui/icons/MoreVert';
 
 function Header() {
 	return (
-		<div className="sticky top-0 flex p-3 justify-between bg-opacity-75 bg-gray-900 filter bg-blur-lg">
+		<div className=" flex p-3 justify-between bg-gray-900  ">
 			<div className="">
 				<AllInclusiveIcon className="icon ml-3" />
 			</div>
