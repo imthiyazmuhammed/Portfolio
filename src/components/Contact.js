@@ -23,7 +23,7 @@ function Contact() {
 
 				<div className="relative px-4">
 					<SendIcon
-						type="button"
+						type="submit"
 						className="absolute top-5 right-12 cursor-pointer"
 					/>
 					<input
@@ -32,6 +32,7 @@ function Contact() {
 						placeholder="Your message"
 						className="input w-full mx-auto mb-10 flex-1 p-5 mr-4"
 					/>
+					<div className="field" data-netlify-recaptcha="true"></div>
 				</div>
 			</form>
 		</div>
