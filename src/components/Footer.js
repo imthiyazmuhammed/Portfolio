@@ -13,7 +13,7 @@ function Footer() {
 				<a href="https://wa.me/+918089866696?text=Hello%20">
 					<WhatsAppIcon className="mx-4 cursor-pointer" />
 				</a>
-				<a href="mailto:imthiyazmuhammed@gmail.com">
+				<a href="mailto:imthiyaz.muhd@gmail.com">
 					<EmailIcon className="mx-4 cursor-pointer" />
 				</a>
 			</div>

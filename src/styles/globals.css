@@ -6,9 +6,12 @@
 		@apply text-white cursor-pointer;
 	}
 	.header {
-		@apply bg-opacity-75 backdrop-filter backdrop-blur-sm bg-gray-900  font-bold  text-2xl sticky top-0 p-1 m-0 pl-2;
+		@apply bg-opacity-75 backdrop-filter backdrop-blur-sm bg-gray-900 text-white font-bold  text-2xl sticky top-0 p-1 m-0 pl-2;
 	}
 	.input {
 		@apply bg-gray-700 rounded-md text-white p-2 m-1 focus:outline-none;
+	}
+	.social {
+		@apply icon bg-gray-900 flex-col text-center md:mx-24 m-5 ml-12;
 	}
 }

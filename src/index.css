@@ -6,6 +6,9 @@ body {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
+* {
+	scroll-behavior: smooth;
+}
 
 code {
 	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
@@ -27,7 +30,10 @@ code {
 	border: 1px solid #555555;
 }
 
-::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+::placeholder {
 	color: rgb(101, 233, 75);
-	opacity: 1; /* Firefox */
-  }
+	opacity: 1;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

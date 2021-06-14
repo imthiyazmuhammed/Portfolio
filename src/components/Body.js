@@ -4,16 +4,58 @@ import Kuttys from '../assets/amazon_clone.jpg';
 import kuttys_old from '../assets/kuttys_web.jpg';
 import quickbill_customer from '../assets/quickbill_customer.jpg';
 import facebook_clone from '../assets/facebook__clone.jpg';
-
+import { motion } from 'framer-motion';
 function Body() {
+	let images = [
+		Quickbill_login,
+		Quickbill_Home,
+		Kuttys,
+		kuttys_old,
+		facebook_clone,
+		quickbill_customer,
+		Quickbill_login,
+		Quickbill_Home,
+		Kuttys,
+		kuttys_old,
+		facebook_clone,
+		quickbill_customer,
+	];
+	let skills = [
+		{ name: 'Javascript', color: '#95d5b2' },
+		{ name: 'HTML', color: '#e63946' },
+		{ name: 'CSS', color: '#a8dadc' },
+		{ name: 'REACT.js', color: '#fff1e6' },
+		{ name: 'Tailwind.css', color: '#a5a58d' },
+		{ name: 'GIT', color: '#e85d04' },
+		{ name: 'NODE.js', color: '#ffc6ff' },
+		{ name: 'Express', color: '#ffd166' },
+		{ name: 'no-SQL', color: '#fefae0' },
+		{ name: 'Mongo-DB', color: '#52b69a' },
+		{ name: 'Bootstrap', color: '#deaaff' },
+		{ name: 'Next-js', color: '#e5e5e5' },
+		{ name: 'Framer-Motion', color: '#f6bd60' },
+		{ name: 'Material-UI', color: '#e56b6f' },
+	];
+
 	return (
 		<div className="py-3 bg-gray-900 max-w-4xl mx-auto ">
 			<div className="flex justify-center">
-				<button
-					href="index.html#contact"
-					className=" focus:outline-none focus:ring-1 hover:bg-green-400  bg-green-300 py-2 px-5 my-3 rounded-full font-bold">
-					Get In Touch
-				</button>
+				<a href="#contact">
+					<motion.button
+						whileHover={{
+							scale: 1.2,
+							textShadow: '0px 0px 8px rgb(255,255,2555)',
+							boxShadow: '0px 0px 8px rgb(255,255,2555)',
+						}}
+						whileTap={{
+							scale: 1.2,
+							textShadow: '0px 0px 8px rgb(255,255,2555)',
+							boxShadow: '0px 0px 8px rgb(255,255,2555)',
+						}}
+						className=" focus:outline-none focus:ring-1 hover:bg-green-400  bg-green-300 py-2 px-5 my-3 rounded-full font-bold">
+						Get In Touch
+					</motion.button>
+				</a>
 			</div>
 
 			<div className="flex-col  mx-3">
@@ -45,71 +87,28 @@ function Body() {
 			<div className="">
 				<h5 className="text-white header">What I use in development</h5>
 				<div className="flex  mx-4  flex-wrap content-between text-grey-700 p-5">
-					<button className="px-5  py-2  bg-yellow-300 rounded-full m-3">
-						Javascript
-					</button>
-					<button className="px-5 py-2  bg-red-300 rounded-full m-3">
-						HTML
-					</button>
-					<button className="px-5  py-2 bg-blue-300 rounded-full m-3">
-						CSS
-					</button>
-					<button className="px-5  py-2 bg-gray-300 rounded-full m-3">
-						React.js
-					</button>
-					<button className="px-5  py-2 bg-green-300 rounded-full m-3">
-						Tailwindcss
-					</button>
-					<button className="px-5 py-2  bg-indigo-300 rounded-full m-3">
-						GIT
-					</button>
-					<button className="px-5  py-2 bg-purple-300 rounded-full m-3">
-						Node.js express
-					</button>
-					<button className="px-5  py-2 bg-pink-300 rounded-full m-3">
-						no-SQL
-					</button>
-					<button className="px-5 bg-blue-400 rounded-full m-3">
-						mongo-DB
-					</button>
-					<button className="px-5  py-2 bg-yellow-400 rounded-full m-3">
-						Bootstrap
-					</button>
-					<button className="px-5  py-2 bg-red-400 rounded-full m-3">
-						material-UI
-					</button>
-					<button className="px-5  py-2 bg-purple-200 rounded-full m-3">
-						NEXT-JS
-					</button>
+					{skills.map((skill) => (
+						<button
+							style={{ backgroundColor: `${skill.color}` }}
+							className="px-5 text-gray py-2 rounded-full m-3">
+							{skill.name}
+						</button>
+					))}
 				</div>
 			</div>
-			<div className="">
+			<div className="slider">
 				<h5 className="text-white  header">What I have built</h5>
-				<div className="flex my-4 overflow-x-auto cursor-pointer " id="style-4">
-					<img
-						src={Quickbill_login}
-						className="w-44  h-68 object-contain rounded-2xl m-2 md:m-5"
-					/>
-					<img
-						src={Quickbill_Home}
-						className="w-44  h-68 object-contain rounded-2xl m-2 md:m-5 "
-					/>
-					<img
-						src={Kuttys}
-						className="w-44  h-68 rounded-2xl object-contain m-2 md:m-5"
-					/>
-					<img
-						src={facebook_clone}
-						className="h-72 my-auto  rounded-2xl object-contain m-2 md:m-5"
-					/>
-					<img
-						src={kuttys_old}
-						className="w-44 h-68 rounded-2xl object-contain m-2 md:m-5"
-					/>
-					<img
-						src={quickbill_customer}
-						className="h-72 my-auto  rounded-2xl object-contain m-2 md:m-5"
-					/>
+				<div className="flex my-4 cursor-pointer slide-track" id="style-4">
+					{images.map((image) => (
+						<a href="">
+							<motion.img
+								whileHover={{ scale: 1.1 }}
+								whileTap={{ scale: 1.1 }}
+								src={image}
+								className="h-56 slide object-fit rounded-2xl m-2 md:m-5 mx-2"
+							/>
+						</a>
+					))}
 				</div>
 			</div>
 			<div className="">
