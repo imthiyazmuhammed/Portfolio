@@ -1,7 +1,7 @@
 import '../styles/timeline.scss';
 function TimeLine() {
 	return (
-		<div className="py-3 max-w-4xl m-auto">
+		<div className="py-3 bg-gray-900">
 			<h5 className="text-white header z-10">Time Line</h5>
 
 			<div class="container">
@@ -12,7 +12,7 @@ function TimeLine() {
 						</div>
 						<div class="timeline-body">
 							<h4 class="timeline-title">
-								<span class="badge">current</span>
+								<span class="badge">Current</span>
 							</h4>
 							<p>
 								Iam always learning as a developer and always keeping up with

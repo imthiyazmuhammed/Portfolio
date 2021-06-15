@@ -9,19 +9,16 @@ import Contact from './components/Contact';
 function App() {
 	return (
 		<div className="App bg-gray-900">
-			<section>
-				<Header />
-				<Profile />
-				<Social />
-				<div className="max-w-4xl mx-auto">
-					<Body />
-					<TimeLine />
-					<Contact />
-				</div>
-			</section>
-			<section className="">
-				<Footer />
-			</section>
+			<Header />
+			<Profile />
+			<Social />
+			<div className="max-w-4xl mx-auto">
+				<Body />
+				<TimeLine />
+				<Contact />
+			</div>
+
+			<Footer />
 		</div>
 	);
 }
