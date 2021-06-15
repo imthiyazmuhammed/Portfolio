@@ -14,13 +14,10 @@ function Contact() {
 			<form
 				className=""
 				name="Contact v1"
+				action="https://formspree.io/f/xpzkrlgd"
 				method="POST"
-				data-netlify="true"
-				netlify="true"
-				data-netlify-honeypot="bot-field"
 				onsubmit="submit">
 				<div className="grid grid-flow-row grid-cols-3 p-3 mt-5 focus:outline-none">
-					<input type="hidden" name="form-name" value="Contact v1" />
 					<motion.input
 						whileFocus={{ scale: 1.5, originX: 0 }}
 						type="text"
@@ -28,6 +25,7 @@ function Contact() {
 						name="name"
 						className="input"
 					/>
+					<input type="hidden" name="_next" value="/thanks.html"></input>
 					<motion.input
 						whileFocus={{ scale: 1.5 }}
 						type="number"
@@ -40,7 +38,7 @@ function Contact() {
 						type="email"
 						placeholder="Email"
 						className="input"
-						name="email"
+						name="_replyto"
 					/>
 				</div>
 
@@ -56,7 +54,6 @@ function Contact() {
 						className="input w-full mx-auto mb-10 flex-1 p-5 mr-4"
 					/>
 				</div>
-				<div className="field" data-netlify-recaptcha="true"></div>
 			</form>
 		</div>
 	);
