@@ -38,7 +38,7 @@ function Body() {
 	];
 
 	return (
-		<div className="py-3 bg-gray-900 max-w-4xl mx-auto ">
+		<div className="py-3 bg-gray-900 ">
 			<div className="flex justify-center">
 				<a href="#contact">
 					<motion.button
@@ -96,23 +96,21 @@ function Body() {
 					))}
 				</div>
 			</div>
-			<div className="slider">
-				<h5 className="text-white  header">What I have built</h5>
-				<div className="flex my-4 cursor-pointer slide-track" id="style-4">
+			<div className="">
+				<h5 className="text-white header">What I have built</h5>
+				<div className="flex cursor-pointer overflow-x-auto" id="style-4">
 					{images.map((image) => (
-						<a href="">
-							<motion.img
-								whileHover={{ scale: 1.1 }}
-								whileTap={{ scale: 1.1 }}
-								src={image}
-								className="h-56 slide object-fit rounded-2xl m-2 md:m-5 mx-2"
-							/>
-						</a>
+						<motion.img
+							whileHover={{ scale: 1.1 }}
+							whileTap={{ scale: 1.1 }}
+							src={image}
+							className="w-auto h-60 object-contain rounded-2xl my-5 mx-2"
+						/>
 					))}
 				</div>
 			</div>
 			<div className="">
-				<h5 className="text-white header">What I Builds</h5>
+				<h5 className="text-white header z-10">What I Builds</h5>
 				<div className="">
 					<p className="text-white bg-gray-800 rounded-2xl p-5  mx-4 my-5">
 						<h6 className="font-bold m-1 text-center">Web apps</h6>

@@ -1,4 +1,4 @@
-import './App.css';
+import './App.scss';
 import Header from './components/Header';
 import Profile from './components/Profile';
 import Social from './components/Social';
@@ -8,14 +8,20 @@ import Footer from './components/Footer';
 import Contact from './components/Contact';
 function App() {
 	return (
-		<div className="App bg-gray-900 relative ">
-			<Header />
-			<Profile />
-			<Social />
-			<Body />
-			<TimeLine />
-			<Contact />
-			<Footer />
+		<div className="App bg-gray-900">
+			<section>
+				<Header />
+				<Profile />
+				<Social />
+				<div className="max-w-4xl mx-auto">
+					<Body />
+					<TimeLine />
+					<Contact />
+				</div>
+			</section>
+			<section className="">
+				<Footer />
+			</section>
 		</div>
 	);
 }

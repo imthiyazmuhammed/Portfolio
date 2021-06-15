@@ -1,0 +1,12 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	scroll-snap-type: y mandatory;
+	overflow-y: scroll;
+}
+section {
+	height: calc(100vh-150px);
+	scroll-snap-align: start;
+}

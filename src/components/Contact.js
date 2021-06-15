@@ -6,11 +6,12 @@ function Contact() {
 		focus: { scale: 1.4 },
 	}; */
 	return (
-		<section
+		<div
+			className="max-w-4xl m-auto"
 			id="contact"
-			className="text-white text-center max-w-4xl mx-auto my-16">
+			className="text-white text-center my-16">
 			<p className="font-bold text-3xl">Say something!</p>
-			<form className="" action="POST" data-netlify="true">
+			<form className="" name="Contact" method="POST" data-netlify="true">
 				<section className="grid grid-flow-row grid-cols-3 p-3 mt-5 focus:outline-none">
 					<motion.input
 						whileFocus={{ scale: 1.5, originX: 0 }}
@@ -50,7 +51,7 @@ function Contact() {
 					<div className="field" data-netlify-recaptcha="true"></div>
 				</div>
 			</form>
-		</section>
+		</div>
 	);
 }
 
