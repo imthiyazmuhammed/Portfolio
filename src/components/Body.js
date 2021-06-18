@@ -63,8 +63,8 @@ function Body() {
 				<p className="text-white mt-4 p-5">
 					&nbsp;&nbsp;&nbsp;&nbsp;Just a Developer who loves to build things
 					with creativity, curiosity and conscientious. When it comes to
-					developing Websites, nothing makes me much involved. I honestly loves
-					to think about how things work and always admired to make something
+					developing Websites, nothing makes me much involved. I was honestly
+					curios about how things work and always admired to make something
 					where I could be a part of the changing and making a better brighter
 					world for tomorrow. and as a profession, they both get coupled in web
 					development. I don't like to leave something behind incomplete, not to
@@ -82,6 +82,16 @@ function Body() {
 					profession and a passion, not only the web developer role suits me, I
 					love to be in it as myself!
 				</p>
+				<div className="pl-16">
+					<h4 className="text-white font-bold pt-5">In short, I am a</h4>
+					<ul className="text-white flex flex-col p-3 justify-center">
+						<li className="align-center p-2 text-lg">👨🏾‍💻 Developer</li>
+						<li className="align-center p-2 text-lg">👨🏾‍💼 Business Enthusiast</li>
+						<li className="align-center p-2 text-lg">🤯 Curios </li>
+						<li className="align-center p-2 text-lg">🏎 Petrolhead</li>
+						<li className="align-center p-2 text-lg">⚙ Techy</li>
+					</ul>
+				</div>
 			</div>
 
 			<div className="">
@@ -90,7 +100,7 @@ function Body() {
 					{skills.map((skill) => (
 						<button
 							style={{ backgroundColor: `${skill.color}` }}
-							className="px-5 text-gray py-2 rounded-full m-3">
+							className="px-5 text-gray py-2 focus:outline-none rounded-full m-3">
 							{skill.name}
 						</button>
 					))}

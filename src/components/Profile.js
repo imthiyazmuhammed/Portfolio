@@ -17,7 +17,7 @@ function Profile() {
 				<motion.img
 					/* animate={{ rotate: 360 }} */
 					src={photo}
-					className="w-20 md:w-56 rounded-xl bg-gray-400"
+					className="w-20 md:w-56 rounded-xl bg-gray-600"
 				/>
 			</div>
 

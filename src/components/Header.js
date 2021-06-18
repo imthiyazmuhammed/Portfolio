@@ -1,8 +1,7 @@
-import ArrowBackIcon from '@material-ui/icons/ArrowBack';
-import ArrowForwardIcon from '@material-ui/icons/ArrowForward';
 import AllInclusiveIcon from '@material-ui/icons/AllInclusive';
-import SearchIcon from '@material-ui/icons/Search';
+import BusinessCenterIcon from '@material-ui/icons/BusinessCenter';
 import MoreVertIcon from '@material-ui/icons/MoreVert';
+import Brightness4Icon from '@material-ui/icons/Brightness4';
 
 function Header() {
 	return (
@@ -11,8 +10,7 @@ function Header() {
 				<AllInclusiveIcon className="icon ml-3" />
 			</div>
 			<div className="space-x-7">
-				<SearchIcon className="icon" />
-				<MoreVertIcon className="icon" />
+				<BusinessCenterIcon className="icon" />
 			</div>
 		</div>
 	);

@@ -6,12 +6,12 @@
 		@apply text-white cursor-pointer;
 	}
 	.header {
-		@apply bg-opacity-75 backdrop-filter backdrop-blur-sm bg-gray-900 text-white font-bold  text-2xl sticky top-0 p-1 m-0 pl-2;
+		@apply bg-opacity-75 backdrop-filter backdrop-blur-sm bg-gray-900 text-white font-bold  text-2xl sticky top-0 p-2 m-0 pl-2;
 	}
 	.input {
 		@apply bg-gray-700 rounded-md text-white p-2 m-1 focus:outline-none;
 	}
 	.social {
-		@apply icon flex-col text-center md:mx-16 mt-2 mb-2 w-24;
+		@apply icon flex-col justify-center text-center md:mx-16 m-2 mx-6 w-24;
 	}
 }
