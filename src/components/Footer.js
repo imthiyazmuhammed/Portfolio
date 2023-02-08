@@ -19,7 +19,7 @@ function Footer() {
 			</div>
 			<div className="flex text-center my-5">
 				<CopyrightIcon className="mx-3" />
-				<h1>Imthiyaz Muhammed - 2021</h1>
+				<h1>Imthiyaz Muhammed - 2023</h1>
 			</div>
 		</div>
 	);

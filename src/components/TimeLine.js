@@ -6,20 +6,32 @@ function TimeLine() {
 
 			<div class="container">
 				<div class="timeline ">
-					<div class="timeline-container primary">
+					<div class="timeline-container warning">
 						<div class="timeline-icon">
 							<i class="far fa-grin-wink"></i>
 						</div>
 						<div class="timeline-body">
 							<h4 class="timeline-title">
-								<span class="badge">Current</span>
+								<span class="badge">Future Forwards</span>
 							</h4>
 							<p>
-								Iam always learning as a developer and always keeping up with
-								latest trends in the development environment, no matter what
-								comes next and no specific platforms. learning comes first
+								Software Developer with expertise in React and React-Native, building scalable applications with thousands of users and multiple user role management in the applications.
 							</p>
-							<p class="timeline-subtitle">Still running...</p>
+							<p class="timeline-subtitle">2022 - Current...</p>
+						</div>
+					</div>
+					<div class="timeline-container info">
+						<div class="timeline-icon">
+							<i class="far fa-grin-hearts"></i>
+						</div>
+						<div class="timeline-body">
+							<h4 class="timeline-title">
+								<span class="badge">BrainChip Solutions</span>
+							</h4>
+							<p>
+								Junior Software Developer with hands on React and React-Native to build Feature Rich Mobile and Web applications
+							</p>
+							<p class="timeline-subtitle">2021 - 2022</p>
 						</div>
 					</div>
 					<div class="timeline-container danger">
@@ -28,7 +40,7 @@ function TimeLine() {
 						</div>
 						<div class="timeline-body">
 							<h4 class="timeline-title">
-								<span class="badge">bachelors</span>
+								<span class="badge">Bachelors</span>
 							</h4>
 							<p>
 								Completed Bachelors in Computer Applications from Lal Bahadur

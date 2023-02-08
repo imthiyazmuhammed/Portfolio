@@ -29,7 +29,7 @@ function Profile() {
 					Imthiyaz Muhammed
 				</motion.h2>
 				<p className="text-green-400 font-bold mt-4 md:text-xl md:mt-8">
-					Web Developer
+					Software Developer
 				</p>
 				<p className="text-white font-extralight mt-0 md:text-xl">
 					Based in Kozhikode

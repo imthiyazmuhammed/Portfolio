@@ -7,9 +7,8 @@ function Contact() {
 	}; */
 	return (
 		<div
-			className="max-w-4xl m-auto"
 			id="contact"
-			className="text-white text-center my-16">
+			className="max-w-4xl m-auto text-white text-center my-16">
 			<p className="font-bold text-3xl">Say something!</p>
 			<form
 				className=""

@@ -12,6 +12,6 @@
 		@apply bg-gray-700 rounded-md text-white p-2 m-1 focus:outline-none;
 	}
 	.social {
-		@apply icon flex-col justify-center text-center md:mx-16 m-2 mx-6 w-24;
+		@apply icon flex-col justify-center text-center md:mx-16 m-2 mx-6 w-32;
 	}
 }
