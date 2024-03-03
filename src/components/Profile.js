@@ -1,4 +1,4 @@
-import photo from '../assets/photo.png';
+import photo from '../assets/photo2.png';
 import { motion } from 'framer-motion';
 
 function Profile() {
@@ -13,11 +13,11 @@ function Profile() {
 			animate={{ x: 0 }}
 			transition={{ delay: 0.1, type: 'spring', stiffness: 120 }}
 			className="flex bg-gray-900 justify-evenly">
-			<div className="my-10 drop-shadow-2xl">
+			<div className="my-10 drop-shadow-2xl grayscale">
 				<motion.img
 					/* animate={{ rotate: 360 }} */
 					src={photo}
-					className="w-20 md:w-56 rounded-xl bg-gray-600"
+					className="w-20 md:w-56 rounded-xl bg-gray-600 grayscale"
 				/>
 			</div>
 
@@ -29,10 +29,10 @@ function Profile() {
 					Imthiyaz Muhammed
 				</motion.h2>
 				<p className="text-green-400 font-bold mt-4 md:text-xl md:mt-8">
-					Software Developer
+					Software Development Engineer
 				</p>
 				<p className="text-white font-extralight mt-0 md:text-xl">
-					Based in Kozhikode
+					Located in Kozhikode
 				</p>
 			</div>
 		</motion.div>

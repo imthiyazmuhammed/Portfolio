@@ -4,21 +4,32 @@ import Kuttys from '../assets/amazon_clone.jpg';
 import kuttys_old from '../assets/kuttys_web.jpg';
 import quickbill_customer from '../assets/quickbill_customer.jpg';
 import facebook_clone from '../assets/facebook__clone.jpg';
+import aladdin from '../assets/aladdin365.png';
+import a4u from '../assets/a4u.png';
+import prakria1 from '../assets/prakria1.png';
+import prakria2 from '../assets/prakria2.png';
+import affiliate from '../assets/affiliate.png';
+
 import { motion } from 'framer-motion';
 function Body() {
 	let images = [
+		aladdin,
+		a4u,
+		prakria1,
+		prakria2,
+		affiliate,
 		Quickbill_login,
 		Quickbill_Home,
+		// Kuttys,
+		// kuttys_old,
+		// facebook_clone,
+		quickbill_customer,
+		// Quickbill_login,
+		// Quickbill_Home,
 		Kuttys,
 		kuttys_old,
 		facebook_clone,
-		quickbill_customer,
-		Quickbill_login,
-		Quickbill_Home,
-		Kuttys,
-		kuttys_old,
-		facebook_clone,
-		quickbill_customer,
+		// quickbill_customer,
 	];
 	let skills = [
 		{ name: 'Javascript', color: '#95d5b2' },
@@ -61,9 +72,9 @@ function Body() {
 			</div>
 
 			<div className="flex-col  mx-3">
-				<h5 className="text-white header   ">Myself</h5>
+				<h5 className="text-white header">Myself</h5>
 				<p className="text-white mt-4 p-5">
-					&nbsp;&nbsp;&nbsp;&nbsp;A Software Developer with over 2 years of experience in the industry. My expertise lies in JavaScript, React, React Native, and Node, and I have a strong passion for developing user-friendly and high-performance software applications. In addition to my technical skills, I am also an excellent communicator and have strong managerial abilities. I am always looking for exciting projects to actively participate in and believe that my combination of technical and interpersonal skills would make me a valuable asset to any organization. Furthermore, I am interested in the intersection of technology and business and enjoy exploring creative solutions.
+					&nbsp;&nbsp;&nbsp;&nbsp;Experienced full-stack engineer with a proven track record of delivering high-quality software solutions. With 3 years of industry experience, I specialize in JavaScript, React, React Native, and Node, with expertise in planning and executing complex cloud-based web applications and REST APIs. My strong passion for developing user-friendly software, coupled with excellent communication and managerial skills, enables me to excel in dynamic project environments. I thrive on learning new concepts and staying abreast of industry trends, and I'm enthusiastic about exploring innovative solutions at the intersection of technology and business.
 				</p>
 				{/* <p className="text-white mt-2  p-5">
 					&nbsp;&nbsp;&nbsp;&nbsp;I was raised in a small village named Chaliyam
@@ -79,11 +90,11 @@ function Body() {
 				<div className="pl-16">
 					<h4 className="text-white font-bold pt-5">In short, I am a</h4>
 					<ul className="text-white flex flex-col p-3 justify-center">
-						<li className="align-center p-2 text-lg">👨🏾‍💻 Developer</li>
+						<li className="align-center p-2 text-lg">👨🏾‍💻 Proficient Developer</li>
 						<li className="align-center p-2 text-lg">👨🏾‍💼 Business Enthusiast</li>
-						<li className="align-center p-2 text-lg">🤯 Curios </li>
+						<li className="align-center p-2 text-lg">🤯 Curious by nature </li>
 						<li className="align-center p-2 text-lg">🏎 Petrolhead</li>
-						<li className="align-center p-2 text-lg">⚙ Techy</li>
+						<li className="align-center p-2 text-lg">⚙ Tech Enthusiast</li>
 					</ul>
 				</div>
 			</div>
@@ -120,7 +131,6 @@ function Body() {
 						<h6 className="font-bold m-1 text-center">Web Apps</h6>
 						<br></br>&nbsp;&nbsp; Web applications built with React and other efficient JavaScript libraries offer numerous benefits for both developers and users. React, a popular JavaScript library for building user interfaces, allows for efficient and fast updates to the web page without the need for a full reload. This results in a smoother and more responsive user experience. Additionally, other libraries like Redux and React Router can be utilized to manage the state of the application and handle navigation, further enhancing the efficiency of the product.
 					</p>
-
 					<p className="text-white bg-gray-800 rounded-2xl p-5 mx-4  my-5">
 						<h6 className="font-bold m-1 text-center">Mobile Applications</h6>
 						<br></br>&nbsp;&nbsp; Mobile applications built with React Native provide a unique solution for businesses looking to create cross-platform apps. React Native allows for the creation of native mobile apps using JavaScript and the React framework, making it a cost-effective and efficient choice. The apps built using React Native have a similar performance to those built using traditional native development languages like Java and Swift, but with the added advantage of being able to reuse code between iOS and Android platforms. This results in faster development time and reduced costs.

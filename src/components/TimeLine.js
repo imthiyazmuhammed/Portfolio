@@ -12,10 +12,10 @@ function TimeLine() {
 						</div>
 						<div class="timeline-body">
 							<h4 class="timeline-title">
-								<span class="badge">Future Forwards</span>
+								<span class="badge">ANJ America</span>
 							</h4>
 							<p>
-								Software Developer with expertise in React and React-Native, building scalable applications with thousands of users and multiple user role management in the applications.
+								Software Development Engineer with expertise in React and React-Native, building scalable applications with thousands of users and multiple user role management in the applications.
 							</p>
 							<p class="timeline-subtitle">2022 - Current...</p>
 						</div>
@@ -42,11 +42,7 @@ function TimeLine() {
 							<h4 class="timeline-title">
 								<span class="badge">Bachelors</span>
 							</h4>
-							<p>
-								Completed Bachelors in Computer Applications from Lal Bahadur
-								Shastri College of applied Science under University of Calicut.
-								that was a three year program and paved my root to developer
-								field.
+							<p>	I earned a Bachelor's degree in Computer Applications from Lal Bahadur Shastri College of Applied Science, affiliated with the University of Calicut. This comprehensive three-year program laid the foundation for my career
 							</p>
 							<p class="timeline-subtitle">2018 - 2021</p>
 						</div>
@@ -60,8 +56,7 @@ function TimeLine() {
 								<span class="badge">Higher Secondary</span>
 							</h4>
 							<p>
-								Higher Secondary In Computer Science from Umbichy Hajee Higher
-								Secondary School, Chaliyam, Kozhikode, Kerala, India
+								I completed my Higher Secondary education in Computer Science at Umbichy Hajee Higher Secondary School, located in Chaliyam, Kozhikode, Kerala, India.
 							</p>
 							<p class="timeline-subtitle">2016 - 2018</p>
 						</div>
@@ -93,8 +88,7 @@ function TimeLine() {
 								<span class="badge">High School</span>
 							</h4>
 							<p>
-								Pursued Secondary School Leaving Certificate in high school from
-								Umbichy Hajee Higher Secondary School, Chaliyam, Kozhikode
+								I pursued my Secondary School Leaving Certificate at Umbichy Hajee Higher Secondary School, situated in Chaliyam, Kozhikode.
 							</p>
 							<p class="timeline-subtitle">•••• 2016</p>
 						</div>
