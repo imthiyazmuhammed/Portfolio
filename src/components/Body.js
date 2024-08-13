@@ -3,7 +3,6 @@ import Quickbill_Home from '../assets/quickbill_home.jpg';
 import Kuttys from '../assets/amazon_clone.jpg';
 import kuttys_old from '../assets/kuttys_web.jpg';
 import quickbill_customer from '../assets/quickbill_customer.jpg';
-import facebook_clone from '../assets/facebook__clone.jpg';
 import aladdin from '../assets/aladdin365.png';
 import a4u from '../assets/a4u.png';
 import prakria1 from '../assets/prakria1.png';
@@ -18,17 +17,17 @@ function Body() {
 		prakria1,
 		prakria2,
 		affiliate,
-		Quickbill_login,
-		Quickbill_Home,
+		// Quickbill_login,
+		// Quickbill_Home,
 		// Kuttys,
 		// kuttys_old,
 		// facebook_clone,
-		quickbill_customer,
+		// quickbill_customer,
 		// Quickbill_login,
 		// Quickbill_Home,
-		Kuttys,
-		kuttys_old,
-		facebook_clone,
+		// Kuttys,
+		// kuttys_old,
+		// facebook_clone,
 		// quickbill_customer,
 	];
 	let skills = [
@@ -72,35 +71,26 @@ function Body() {
 			</div>
 
 			<div className="flex-col  mx-3">
-				<h5 className="text-white header">Myself</h5>
-				<p className="text-white mt-4 p-5">
-					&nbsp;&nbsp;&nbsp;&nbsp;Experienced full-stack engineer with a proven track record of delivering high-quality software solutions. With 3 years of industry experience, I specialize in JavaScript, React, React Native, and Node, with expertise in planning and executing complex cloud-based web applications and REST APIs. My strong passion for developing user-friendly software, coupled with excellent communication and managerial skills, enables me to excel in dynamic project environments. I thrive on learning new concepts and staying abreast of industry trends, and I'm enthusiastic about exploring innovative solutions at the intersection of technology and business.
+				<h5 className="text-white header">About me</h5>
+				<p className="text-white mt-4 p-5 text-lg">
+					&nbsp;&nbsp;&nbsp;&nbsp;With 3 years of experience in the industry, I've honed my skills in JavaScript, React, React Native, and Node, turning complex challenges into user-friendly solutions. My journey as a full-stack engineer has been fueled by a relentless curiosity and a commitment to excellence, whether I'm building cloud-based web applications or crafting REST APIs.
+
+					In every project, I bring a blend of technical prowess and a keen business sense, ensuring that the solutions I create aren't just functional but also aligned with broader business goals. My passion for technology and business drives me to stay ahead of the curve, constantly learning and adapting to new trends.
+
+					When I'm not coding, you might find me diving deep into the latest tech trends, exploring new business ideas, or revving up my engine as a dedicated petrolhead.
 				</p>
-				{/* <p className="text-white mt-2  p-5">
-					&nbsp;&nbsp;&nbsp;&nbsp;I was raised in a small village named Chaliyam
-					in Kozhikode district in Kerala, India. To be frank, the education
-					system doesn't function as it is supposed to do, as an ambitious
-					person I developed several skills to become a better version of myself
-					in the meantime while I am pursuing my bachelor's degree in Computer
-					applications from University of Calicut, honestly, this progress
-					guided me to a different level of self esteem, looking forward as a
-					profession and a passion, not only the web developer role suits me, I
-					love to be in it as myself!
-				</p> */}
-				<div className="pl-16">
-					<h4 className="text-white font-bold pt-5">In short, I am a</h4>
-					<ul className="text-white flex flex-col p-3 justify-center">
-						<li className="align-center p-2 text-lg">👨🏾‍💻 Proficient Developer</li>
-						<li className="align-center p-2 text-lg">👨🏾‍💼 Business Enthusiast</li>
-						<li className="align-center p-2 text-lg">🤯 Curious by nature </li>
-						<li className="align-center p-2 text-lg">🏎 Petrolhead</li>
-						<li className="align-center p-2 text-lg">⚙ Tech Enthusiast</li>
-					</ul>
-				</div>
+				<ul className="text-white flex flex-col p-3 justify-center">
+					<li className="align-center p-2 text-sm">👨🏾‍💻 Proficient Developer | Crafting seamless user experiences through clean code and innovative designs.</li>
+					<li className="align-center p-2 text-sm">👨🏾‍💼 Business Enthusiast | Bridging the gap between technology and business, driving impactful solutions.</li>
+					<li className="align-center p-2 text-sm">🤯 Curious by Nature | Constantly exploring new ideas and pushing the boundaries of what's possible. </li>
+					<li className="align-center p-2 text-sm">⚙ Tech Enthusiast | Deeply immersed in the latest trends, always ready to dive into the next big thing.
+					</li>
+					<li className="align-center p-2 text-sm">🏎 Petrolhead | Passionate about speed, precision, and the thrill of the ride.</li>
+				</ul>
 			</div>
 
 			<div className="">
-				<h5 className="text-white header">What I use in development</h5>
+				<h5 className="text-white header">My Development Toolkit</h5>
 				<div className="flex  mx-4  flex-wrap content-between text-grey-700 p-5">
 					{skills.map((skill) => (
 						<button
@@ -112,32 +102,37 @@ function Body() {
 				</div>
 			</div>
 			<div className="">
-				<h5 className="text-white header">What I have built</h5>
-				<div className="flex cursor-pointer overflow-x-auto" id="style-4">
+				<h5 className="text-white header">What I've Built</h5>
+				<div className="flex gap-10 overflow-x-auto w-full" id="style-4">
 					{images.map((image) => (
-						<motion.img
-							whileHover={{ scale: 1.1 }}
-							whileTap={{ scale: 1.1 }}
-							src={image}
-							className="w-auto h-60 object-contain rounded-2xl my-5 mx-2"
-						/>
+						<div className='relative flex-shrink-0 min-w-[250px]'>
+							<motion.img
+								whileHover={{ scale: 1.05 }}
+								whileTap={{ scale: 1.05 }}
+								src={image}
+								className="w-auto h-60 object-contain z-0 rounded-lg "
+							/>
+							<div class="w-auto h-60 opacity-0 hover:opacity-90 duration-300 absolute inset-0 z-10 flex justify-center items-center text-l bg-gray-300 rounded-lg">
+								<p className='text-black font-semibold leading-5 ml-2'>Get in touch to know more on this project</p>
+							</div>
+						</div>
 					))}
 				</div>
 			</div>
 			<div className="">
-				<h5 className="text-white header z-10">What I Builds</h5>
+				<h5 className="text-white header z-10">What I Build</h5>
 				<div className="">
 					<p className="text-white bg-gray-800 rounded-2xl p-5  mx-4 my-5">
-						<h6 className="font-bold m-1 text-center">Web Apps</h6>
-						<br></br>&nbsp;&nbsp; Web applications built with React and other efficient JavaScript libraries offer numerous benefits for both developers and users. React, a popular JavaScript library for building user interfaces, allows for efficient and fast updates to the web page without the need for a full reload. This results in a smoother and more responsive user experience. Additionally, other libraries like Redux and React Router can be utilized to manage the state of the application and handle navigation, further enhancing the efficiency of the product.
+						<h6 className="font-bold m-1 text-center">🚀 High-Performance Web Apps</h6>
+						<br></br>&nbsp;&nbsp;I specialize in crafting cloud-based web applications that are not only visually appealing but also deliver exceptional performance and scalability. By leveraging modern frameworks like React for the front-end and Node.js for the back-end, I ensure that these applications can handle high traffic while maintaining a seamless user experience. My focus on security and scalability means that these applications can grow alongside your business, adapting to new challenges and user demands effortlessly.
 					</p>
 					<p className="text-white bg-gray-800 rounded-2xl p-5 mx-4  my-5">
-						<h6 className="font-bold m-1 text-center">Mobile Applications</h6>
-						<br></br>&nbsp;&nbsp; Mobile applications built with React Native provide a unique solution for businesses looking to create cross-platform apps. React Native allows for the creation of native mobile apps using JavaScript and the React framework, making it a cost-effective and efficient choice. The apps built using React Native have a similar performance to those built using traditional native development languages like Java and Swift, but with the added advantage of being able to reuse code between iOS and Android platforms. This results in faster development time and reduced costs.
+						<h6 className="font-bold m-1 text-center">📱 Seamless Mobile Experiences</h6>
+						<br></br>&nbsp;&nbsp;I develop mobile applications that provide consistent and high-quality experiences across both iOS and Android platforms. By using React Native, I ensure that users enjoy a native-like experience with smooth navigation and responsive design. Whether it’s integrating real-time data with Firebase or implementing offline capabilities, my mobile apps are built to engage users, keep them coming back, and function reliably under varying network conditions.
 					</p>
 					<p className="text-white bg-gray-800 rounded-2xl p-5 mx-4  my-5">
-						<h6 className="font-bold m-1 text-center">Backend Systems</h6>
-						<br></br>&nbsp;&nbsp; Backend systems built with Node and Express provide a fast, efficient, and scalable solution for modern web applications. Node.js, a powerful JavaScript runtime environment, allows for the creation of server-side applications that handle high amounts of data and traffic with ease. The Express framework, built on top of Node, provides a simple and flexible way to handle routing and middleware, making it a popular choice for creating backend systems. With its fast performance and extensive library of modules, Node and Express can handle a variety of tasks, such as database integration, authentication, and file handling, making it a versatile choice for businesses and developers. The use of JavaScript on both the frontend and backend also allows for a seamless integration between the two, providing a unified and efficient development experience.
+						<h6 className="font-bold m-1 text-center">🔧 Scalable Backend Systems</h6>
+						<br></br>&nbsp;&nbsp;My expertise extends to building backend systems that are the backbone of robust and scalable applications. These systems are designed to handle complex business logic, large datasets, and high traffic volumes efficiently. By using technologies like Docker for containerization and Express for a flexible server-side architecture, I ensure that backend systems are easy to deploy, maintain, and scale. Security, performance, and reliability are at the core of my backend solutions, making sure they meet the demands of modern applications.
 					</p>
 				</div>
 			</div>

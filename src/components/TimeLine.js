@@ -56,7 +56,7 @@ function TimeLine() {
 								<span class="badge">Higher Secondary</span>
 							</h4>
 							<p>
-								I completed my Higher Secondary education in Computer Science at Umbichy Hajee Higher Secondary School, located in Chaliyam, Kozhikode, Kerala, India.
+								I completed my Higher Secondary education with a focus on Computer Science at Umbichy Hajee Higher Secondary School in Chaliyam, Kozhikode, Kerala, India.
 							</p>
 							<p class="timeline-subtitle">2016 - 2018</p>
 						</div>
@@ -88,7 +88,7 @@ function TimeLine() {
 								<span class="badge">High School</span>
 							</h4>
 							<p>
-								I pursued my Secondary School Leaving Certificate at Umbichy Hajee Higher Secondary School, situated in Chaliyam, Kozhikode.
+								I obtained my Secondary School Leaving Certificate (SSLC) from Umbichy Hajee Higher Secondary School, located in Chaliyam, Kozhikode.
 							</p>
 							<p class="timeline-subtitle">•••• 2016</p>
 						</div>

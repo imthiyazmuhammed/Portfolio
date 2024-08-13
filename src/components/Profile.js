@@ -1,4 +1,4 @@
-import photo from '../assets/photo2.png';
+import photo from '../assets/photo3.png';
 import { motion } from 'framer-motion';
 
 function Profile() {
@@ -29,10 +29,10 @@ function Profile() {
 					Imthiyaz Muhammed
 				</motion.h2>
 				<p className="text-green-400 font-bold mt-4 md:text-xl md:mt-8">
-					Software Development Engineer
+					I build things for the web
 				</p>
-				<p className="text-white font-extralight mt-0 md:text-xl">
-					Located in Kozhikode
+				<p className="text-white font-extralight mt-0 md:text-l">
+					Full stack engineer (Javascript)
 				</p>
 			</div>
 		</motion.div>
